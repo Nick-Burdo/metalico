@@ -1,0 +1,181 @@
+/************************************
+ *	METALL
+ ************************************/
+
+/* Header
+-----------------------------------------------------------------------------*/
+.metall .page-header {padding:0}
+.metall .frames {
+	background:url(images/metall.jpg) no-repeat;
+}
+.metall .frames img {
+	position:absolute;
+	opacity:0;
+}
+.frame1 {
+	-webkit-transition:opacity 0.5s 0s ease-out;
+	-moz-transition:opacity 0.5s 0s ease-out;
+	-o-transition:opacity 0.5s 0s ease-out;
+	transition:opacity 0.5s 0s ease-out;
+}
+.frame2 {
+	-webkit-transition:opacity 0.5s 0.25s ease-out;
+	-moz-transition:opacity 0.5s 0.25s ease-out;
+	-o-transition:opacity 0.5s 0.25s ease-out;
+	transition:opacity 0.5s 0.25s ease-out;
+}
+.frame3 {
+	-webkit-transition:opacity 0.5s 0.5s ease-out;
+	-moz-transition:opacity 0.5s 0.5s ease-out;
+	-o-transition:opacity 0.5s 0.5s ease-out;
+	transition:opacity 0.5s 0.5s ease-out;
+}
+.frame4 {
+	-webkit-transition:opacity 0.5s 0.75s ease-out;
+	-moz-transition:opacity 0.5s 0.75s ease-out;
+	-o-transition:opacity 0.5s 0.75s ease-out;
+	transition:opacity 0.5s 0.75s ease-out;
+}
+.frame5 {
+	-webkit-transition:opacity 0.5s 1s ease-out;
+	-moz-transition:opacity 0.5s 1s ease-out;
+	-o-transition:opacity 0.5s 1s ease-out;
+	transition:opacity 0.5s 1s ease-out;
+}
+.frame6 {
+	-webkit-transition:opacity 0.5s 1.25s ease-out;
+	-moz-transition:opacity 0.5s 1.25s ease-out;
+	-o-transition:opacity 0.5s 1.25s ease-out;
+	transition:opacity 0.5s 1.25s ease-out;
+}
+.frame7 {
+	-webkit-transition:opacity 0.5s 1.5s ease-out;
+	-moz-transition:opacity 0.5s 1.5s ease-out;
+	-o-transition:opacity 0.5s 1.5s ease-out;
+	transition:opacity 0.5s 1.5s ease-out;
+}
+.metall .frames:hover img {
+	opacity:1;
+}
+#if1 {
+	top:10px;
+	left:296px;
+}
+#if2 {
+	top:10px;
+	left:228px;
+}
+#if3 {
+	top:10px;
+	left:109px;
+}
+#if4 {
+	top:10px;
+	left:362px;
+}
+#if5 {
+	top: 264px;
+	left: 118px;
+}
+#if6 {
+	top: 306px;
+	left: 308px;
+}
+#if7 {
+	top:0px;
+	left:104px;
+}
+#if8 {
+	top:0px;
+	left:498px;
+}
+#if9 {
+	top:5px;
+	left:229px;
+}
+#if10 {
+	top:5px;
+	left:370px;
+}
+#if11 {
+	top:102px;
+	left:300px;
+}
+#if12 {
+	top:150px;
+	left:105px;
+}
+#if13 {
+	top:150px;
+	left:499px;
+}
+#if14 {
+	top:349px;
+	left:109px;
+}
+#if15 {
+	top:302px;
+	left:324px;
+}
+#if16 {
+	top:263px;
+	left:503px;
+}
+#if17 {
+	top:401px;
+	left:503px;
+}
+
+.metall .page-header .address {
+	position:absolute;
+	width:230px;
+	top:85px;
+	right:10px;
+	margin:0;
+}
+
+/* Top navigation
+-----------------------------------------------------------------------------*/
+.metall .page-header nav {
+top: -150px;
+margin-bottom: -150px;
+}
+.metall-top-menu {
+	list-style:none;
+	margin:0;
+	text-align:center;
+}
+.metall-top-menu li {
+	display:inline-block;
+	margin:0 60px;
+	height:40px;
+	background:url(images/matall-menu-bg.png) no-repeat center 30px;
+	-webkit-transition:height 0.3s ease-in-out;
+}
+.metall-top-menu a {
+	display: block;
+	text-indent:-9999px;
+	width:200px;
+	height:40px;
+	background: url(images/metall-top-menu.png) no-repeat left top;
+}
+.metall-top-menu li:nth-child(2) a {background-position:center top}	
+.metall-top-menu li:nth-child(3) a {background-position:right top}
+.metall-top-menu li:hover, .metall-top-menu .current-menu-item {
+	height:75px;
+}
+.metall-top-menu a:hover, .metall-top-menu .current-menu-item a {background-position:left bottom}
+.metall-top-menu li:nth-child(2) a:hover, .metall-top-menu .current-menu-item:nth-child(2) a {background-position:center bottom}
+.metall-top-menu li:nth-child(3) a:hover, .metall-top-menu .current-menu-item:nth-child(3) a {background-position:right bottom}
+
+/*	news	*/
+.metall .page-sidebar .news {
+padding: 10px 0 ;
+background-position:left top;
+}
+.metall .page-sidebar .news li {
+margin: 0.5em 0;
+font-size:12px;
+}
+
+

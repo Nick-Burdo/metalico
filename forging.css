@@ -1,0 +1,128 @@
+/************************************
+ *	FORDING
+ ************************************/
+ 
+/* Header
+-----------------------------------------------------------------------------*/
+.forging .frame {
+	position:absolute;
+	width:387px;
+	height:390px;
+	top:0px;
+	left:192px;
+	opacity:0;
+}
+	
+.frames:hover #frame2 {
+	-webkit-animation:flame2 3s 1 linear;
+}
+@-webkit-keyframes flame2 {
+0% {opacity:0}
+8.33% {opacity:1}
+16.67% {opacity:0}
+}
+.frames:hover #frame3 {
+	-webkit-animation:flame3 3s 1 linear;
+}
+@-webkit-keyframes flame3 {
+8.33% {opacity:0}
+16.67% {opacity:1}
+25% {opacity:0}
+}
+.frames:hover #frame4 {
+	-webkit-animation:flame4 3s 1 linear;
+}
+@-webkit-keyframes flame4 {
+16.67% {opacity:0}
+25% {opacity:1}
+33.33% {opacity:0}
+}
+.frames:hover #frame5 {
+	-webkit-animation:flame5 3s 1 linear;
+}
+@-webkit-keyframes flame5 {
+25% {opacity:0}
+33.33% {opacity:1}
+41.67%	{opacity:0}
+}
+.frames:hover #frame6 {
+	-webkit-animation:flame6 3s 1 linear;
+}
+@-webkit-keyframes flame6 {
+33.33% {opacity:0}
+41.67%	{opacity:1}
+50% {opacity:0}
+}
+.frames:hover #frame7 {
+	-webkit-animation:flame7 3s 1 linear;
+}
+@-webkit-keyframes flame7 {
+41.67%	{opacity:0}
+50% {opacity:1}
+58.33% {opacity:0}
+}
+.frames:hover #frame8 {
+	-webkit-animation:flame8 3s 1 linear;
+}
+@-webkit-keyframes flame8 {
+50% {opacity:0}
+58.33% {opacity:1}
+66.67% {opacity:0}
+}
+.frames:hover #frame9 {
+	-webkit-animation:flame9 3s 1 linear;
+}
+@-webkit-keyframes flame9 {
+58.33% {opacity:0}
+66.67% {opacity:1}
+75% {opacity:0}
+}
+.frames:hover #frame10 {
+	-webkit-animation:flame10 3s 1 linear;
+}
+@-webkit-keyframes flame10 {
+66.67% {opacity:0}
+75% {opacity:1}
+83.33% {opacity:0}
+}
+.frames:hover #frame11 {
+	-webkit-animation:flame11 3s 1 linear;
+}
+@-webkit-keyframes flame11 {
+75% {opacity:0}
+83.33% {opacity:1}
+91.67% {opacity:0}
+}
+.frames:hover #frame12 {
+	-webkit-animation:flame12 3s 1 linear;
+}
+@-webkit-keyframes flame12 {
+83.33% {opacity:0}
+91.67% {opacity:1}
+100% {opacity:0}	
+}
+
+/* Top navigation
+-----------------------------------------------------------------------------*/
+.forging-top-menu {
+	list-style:none;
+	margin:0;
+	text-align:center;
+}
+.forging-top-menu li {
+	display:inline-block;
+	margin:0 12px;
+}
+.forging-top-menu a {
+	display: block;
+	text-indent:-9999px;
+	width:297px;
+	height:92px;
+	background: url(images/forging-top-menu.png) no-repeat left top;
+}
+.forging-top-menu li:nth-child(2) a {background-position:center top}	
+.forging-top-menu li:nth-child(3) a {background-position:right top}	
+.forging-top-menu a:hover, .forging-top-menu .current-menu-item a {background-position:left bottom}
+.forging-top-menu li:nth-child(2) a:hover, .forging-top-menu .current-menu-item:nth-child(2) a {background-position:center bottom}
+.forging-top-menu li:nth-child(3) a:hover, .forging-top-menu .current-menu-item:nth-child(3) a {background-position:right bottom}
+
